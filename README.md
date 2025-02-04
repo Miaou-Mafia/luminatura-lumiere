@@ -3,6 +3,7 @@
 ## Mode d'emploi
 ### Association des lumières
 *Associer les lumières une à la fois
+
 *Un channel par lumière
 
 Choisir un channel spécifique et allumer la lumière. Dans les 10 prochaines secondes, cliquer trois fois sur le bouton set du transmetteur. La lumière devrait clignoter 3 fois en vert pour démontrer son association.
