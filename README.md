@@ -13,3 +13,6 @@ Pour une seconde lumière, éteindre la première lumière déjà associée et c
 ### Disassociation des lumières
 
 Éteindre les lumières et les rallumer. Dans les 5 prochaines secondes, appuyer 5 fois sur le bouton set du transmetteur. Les lumières devraient clignoter 10 fois en rouge pour démontrer leur dissociation du transmetteur.
+
+## Charte des couleurs
+
