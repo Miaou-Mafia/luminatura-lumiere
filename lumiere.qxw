@@ -99,6 +99,24 @@
    <FixtureVal ID="6">0,233,1,66,2,196,3,13,4,0</FixtureVal>
    <FixtureVal ID="7">0,225,1,93,2,176,3,26,4,0</FixtureVal>
   </Function>
+  <Function ID="2" Type="Scene" Name="rose_intesite_moins">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,188,1,54,2,127,3,26,4,0</FixtureVal>
+   <FixtureVal ID="1">0,186,1,30,2,146,3,13,4,0</FixtureVal>
+   <FixtureVal ID="2">0,180,1,0,2,143,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,225,1,0,2,177,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,225,1,10,2,131,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,244,1,2,2,99,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="rose_02_intensite_moins">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,195,1,2,2,57,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,180,1,0,2,88,3,0,4,0</FixtureVal>
+   <FixtureVal ID="2">0,194,1,0,2,106,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,225,1,23,2,196,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,233,1,66,2,196,3,13,4,0</FixtureVal>
+   <FixtureVal ID="7">0,225,1,93,2,176,3,26,4,0</FixtureVal>
+  </Function>
   <Function ID="4" Type="Chaser" Name="rose">
    <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
    <Direction>Forward</Direction>
@@ -126,6 +144,14 @@
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+  </Function>
+  <Function ID="8" Type="Chaser" Name="rose_moins">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">3</Step>
   </Function>
  </Engine>
  <VirtualConsole>
@@ -163,7 +189,7 @@
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
-     <Function>4</Function>
+     <Function>8</Function>
     </Playback>
    </Slider>
   </Frame>
