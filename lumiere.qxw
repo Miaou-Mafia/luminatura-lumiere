@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
@@ -101,11 +101,11 @@
   </Function>
   <Function ID="2" Type="Scene" Name="rose_intesite_moins">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,188,1,54,2,127,3,26,4,0</FixtureVal>
-   <FixtureVal ID="1">0,186,1,30,2,146,3,13,4,0</FixtureVal>
-   <FixtureVal ID="2">0,180,1,0,2,143,3,0,4,0</FixtureVal>
-   <FixtureVal ID="5">0,225,1,0,2,177,3,0,4,0</FixtureVal>
-   <FixtureVal ID="6">0,225,1,10,2,131,3,0,4,0</FixtureVal>
+   <FixtureVal ID="0">0,174,1,41,2,113,3,29,4,0</FixtureVal>
+   <FixtureVal ID="1">0,166,1,21,2,125,3,26,4,0</FixtureVal>
+   <FixtureVal ID="2">0,154,1,0,2,117,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,199,1,0,2,177,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,157,1,10,2,79,3,0,4,0</FixtureVal>
    <FixtureVal ID="7">0,244,1,2,2,99,3,0,4,0</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="rose_02_intensite_moins">
@@ -153,6 +153,102 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">3</Step>
   </Function>
+  <Function ID="9" Type="Scene" Name="rose_intesite_moins_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,64,1,19,2,40,3,14,4,0</FixtureVal>
+   <FixtureVal ID="1">0,69,1,1,2,47,3,17,4,0</FixtureVal>
+   <FixtureVal ID="2">0,69,1,0,2,41,3,17,4,0</FixtureVal>
+   <FixtureVal ID="5">0,208,1,0,2,177,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,86,1,9,2,17,3,12,4,0</FixtureVal>
+   <FixtureVal ID="7">0,244,1,2,2,99,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="rose_02_intensite_moins_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,39,1,2,2,10,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,79,1,0,2,44,3,5,4,0</FixtureVal>
+   <FixtureVal ID="2">0,90,1,0,2,31,3,13,4,0</FixtureVal>
+   <FixtureVal ID="5">0,225,1,23,2,196,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,110,1,31,2,36,3,14,4,0</FixtureVal>
+   <FixtureVal ID="7">0,225,1,93,2,176,3,26,4,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Chaser" Name="rose_moins_02">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+  </Function>
+  <Function ID="12" Type="Scene" Name="bleu">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,136,1,226,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,199,2,255,3,40,4,0</FixtureVal>
+   <FixtureVal ID="2">0,83,1,187,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,60,1,72,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,72,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="bleu_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,72,2,255,3,14,4,0</FixtureVal>
+   <FixtureVal ID="2">0,60,1,72,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,83,1,187,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,199,2,255,3,40,4,0</FixtureVal>
+   <FixtureVal ID="7">0,136,1,226,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="bleu_intensite_moins">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,13,1,76,2,88,3,19,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,51,2,90,3,12,4,0</FixtureVal>
+   <FixtureVal ID="2">0,8,1,69,2,71,3,9,4,0</FixtureVal>
+   <FixtureVal ID="5">0,60,1,72,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,33,2,44,3,4,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="bleu_02_intensite_moins">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,16,2,48,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,33,2,53,3,0,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,65,2,56,3,7,4,0</FixtureVal>
+   <FixtureVal ID="5">0,83,1,187,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,56,2,52,3,15,4,0</FixtureVal>
+   <FixtureVal ID="7">0,136,1,226,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Chaser" Name="bleu_moins">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+  </Function>
+  <Function ID="17" Type="Scene" Name="jaune">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,20,2,0,3,15,4,10</FixtureVal>
+   <FixtureVal ID="1">0,0,1,18,2,0,3,0,4,17</FixtureVal>
+   <FixtureVal ID="2">0,4,1,14,2,0,3,6,4,13</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,12,2,0,3,0,4,12</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="jaune_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,13,1,15,2,0,3,5,4,14</FixtureVal>
+   <FixtureVal ID="1">0,9,1,20,2,0,3,7,4,8</FixtureVal>
+   <FixtureVal ID="2">0,0,1,13,2,0,3,0,4,13</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,4,1,29,2,0,3,11,4,12</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Chaser" Name="jaune">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+  </Function>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -164,7 +260,7 @@
     <Font>Default</Font>
    </Appearance>
    <Button Caption="rose" ID="7" Icon="">
-    <WindowState Visible="True" X="450" Y="165" Width="50" Height="50"/>
+    <WindowState Visible="False" X="450" Y="165" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -176,8 +272,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Slider Caption="Slider 0" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="805" Y="240" Width="60" Height="200"/>
+   <Slider Caption="Rose" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="805" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -189,7 +285,22 @@
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
-     <Function>8</Function>
+     <Function>11</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Bleu" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="885" Y="240" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>16</Function>
     </Playback>
    </Slider>
   </Frame>
