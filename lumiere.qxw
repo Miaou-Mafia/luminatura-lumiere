@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
@@ -260,7 +260,7 @@
     <Font>Default</Font>
    </Appearance>
    <Button Caption="rose" ID="7" Icon="">
-    <WindowState Visible="False" X="450" Y="165" Width="50" Height="50"/>
+    <WindowState Visible="True" X="450" Y="165" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -273,7 +273,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Slider Caption="Rose" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="805" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="805" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -289,7 +289,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Bleu" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="885" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="885" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
