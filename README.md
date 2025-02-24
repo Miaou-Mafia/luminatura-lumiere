@@ -20,3 +20,10 @@ Pour une seconde lumière, éteindre la première lumière déjà associée et c
 ## Charte des couleurs
 ![Luminatura (1)](https://github.com/user-attachments/assets/286b1a92-6c57-4a72-9f43-0b72b166f838)
 
+## Manuels d'utilisation
+
+#### Transmitter
+[Manuel Transmitter](https://miboxer.com/light/m_n/FUTD01.html)
+
+#### Ampoules
+[Manuel Ampoules](https://miboxer.com/light/m_n/tongyong/rgbcct_light_2.4grf/en.html)
