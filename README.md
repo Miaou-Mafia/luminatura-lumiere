@@ -47,6 +47,8 @@ Astuce : Si vous avez plusieurs lumières connectées, assurez-vous de dissocier
 - **Problème de synchronisation** : Si vous rencontrez des difficultés de synchronisation entre le transmetteur et les lumières, essayez de réinitialiser le transmetteur en suivant les étapes de dissociation et réassociation.
 - **Lumières ne clignotent pas en vert** : Si les lumières ne clignotent pas en vert après l'association, vérifiez que le transmetteur est correctement alimenté et que vous respectez bien le délai de 10 secondes.
 
+Remarque supplémentaire : Il est recommandé de tester chaque lumière après l'association pour vous assurer qu'elle fonctionne correctement avec le canal assigné.
+
 ## Interactions lumineuses
 ![Luminatura (2)](https://github.com/user-attachments/assets/e6520c34-fbd2-41bf-a40b-c729ab72d5c9)
 
