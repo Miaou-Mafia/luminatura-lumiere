@@ -38,6 +38,11 @@ Si vous souhaitez dissocier une lumière du transmetteur, voici les étapes :
 * Si la lumière ne clignote pas en vert lors de l'association : assurez-vous que le transmetteur est dans la bonne plage de fréquence et que le canal est correctement sélectionné.
 * Si la dissociation échoue : vérifiez que la lumière est bien allumée avant d'appuyer sur le bouton SET. Assurez-vous également que la lumière n'est pas déjà dissociée.
 
+### Problèmes connus
+
+- **Problème de synchronisation** : Si vous rencontrez des difficultés de synchronisation entre le transmetteur et les lumières, essayez de réinitialiser le transmetteur en suivant les étapes de dissociation et réassociation.
+- **Lumières ne clignotent pas en vert** : Si les lumières ne clignotent pas en vert après l'association, vérifiez que le transmetteur est correctement alimenté et que vous respectez bien le délai de 10 secondes.
+
 ## Interactions lumineuses
 ![Luminatura (2)](https://github.com/user-attachments/assets/e6520c34-fbd2-41bf-a40b-c729ab72d5c9)
 
