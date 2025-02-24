@@ -1,4 +1,4 @@
-# luminatura-lumiere
+# Lumière Luminatura (QLC+)
 
 ## Mode d'emploi
 ### Association des lumières
