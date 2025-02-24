@@ -24,6 +24,8 @@
 | Ampoule DMX 512 5 | Canal 5 |
 | Ampoule DMX 512 6 | Canal 6 |
 
+Remarque : Si la lumière ne clignote pas en vert, réessayez la procédure d'association en vous assurant que le délai de 10 secondes est respecté. Il peut être nécessaire de répéter l'opération plusieurs fois si l'association échoue.
+
 ### Disassociation des lumières
 
 Si vous souhaitez dissocier une lumière du transmetteur, voici les étapes :
