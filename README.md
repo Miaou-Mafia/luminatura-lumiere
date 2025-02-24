@@ -23,6 +23,11 @@ Pour une seconde lumière, éteindre la première lumière déjà associée et c
 
 Éteindre les lumières et les rallumer. Dans les 5 prochaines secondes, appuyer 5 fois sur le bouton set du transmetteur. Les lumières devraient clignoter 10 fois en rouge pour démontrer leur dissociation du transmetteur.
 
+### Conseils de dépannage
+
+* Si la lumière ne clignote pas en vert lors de l'association : assurez-vous que le transmetteur est dans la bonne plage de fréquence et que le canal est correctement sélectionné.
+* Si la dissociation échoue : vérifiez que la lumière est bien allumée avant d'appuyer sur le bouton SET. Assurez-vous également que la lumière n'est pas déjà dissociée.
+
 ## Interactions lumineuses
 ![Luminatura (2)](https://github.com/user-attachments/assets/e6520c34-fbd2-41bf-a40b-c729ab72d5c9)
 
