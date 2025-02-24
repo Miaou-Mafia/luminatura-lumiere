@@ -1,14 +1,19 @@
 # Lumière Luminatura (QLC+)
 
 ## Mode d'emploi
+
 ### Association des lumières
-*Associer les lumières une à la fois
+*Associer les lumières une à la fois*
 
-*Un canal par lumière
+*Un canal par lumière*
 
-Choisir un canal spécifique et allumer la lumière. Dans les 10 prochaines secondes, cliquer trois fois sur le bouton "set" du transmetteur. La lumière devrait clignoter 3 fois en vert pour indiquer son association.
-
-Pour une seconde lumière, éteindre la première lumière déjà associée et changer de canal sur le transmetteur. Ensuite, allumer la deuxième lumière et répéter le même processus que pour la première lumière.
+1. **Sélectionner un canal** : Choisissez un canal spécifique à l'aide du transmetteur.
+2. **Allumer la lumière** : Assurez-vous que la lumière est allumée.
+3. **Procédure d'association** : Dans les 10 secondes, cliquez trois fois rapidement sur le bouton "set" du transmetteur. La lumière devrait clignoter trois fois en vert pour signaler son association avec ce canal.
+4. **Répéter pour d'autres lumières** : 
+   - Pour associer une deuxième lumière, éteignez la première lumière associée.
+   - Changez de canal sur le transmetteur.
+   - Allumez la deuxième lumière et répétez la même procédure que pour la première.
 
 | Ampoules DMX 512  | Canal    |
 | ---------- | -------- |
