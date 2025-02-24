@@ -26,7 +26,12 @@
 
 ### Disassociation des lumières
 
-Éteindre les lumières et les rallumer. Dans les 5 prochaines secondes, appuyer 5 fois sur le bouton set du transmetteur. Les lumières devraient clignoter 10 fois en rouge pour démontrer leur dissociation du transmetteur.
+Si vous souhaitez dissocier une lumière du transmetteur, voici les étapes :
+
+1. **Éteindre les lumières** : Assurez-vous que toutes les lumières sont éteintes.
+2. **Rallumer les lumières** : Allumez les lumières à nouveau.
+3. **Procédure de dissociation** : Dans les 5 secondes après avoir rallumé les lumières, appuyez cinq fois rapidement sur le bouton "set" du transmetteur.
+   - **Indication visuelle** : Les lumières clignoteront 10 fois en rouge pour indiquer qu'elles sont maintenant dissociées du transmetteur.
 
 ### Conseils de dépannage
 
