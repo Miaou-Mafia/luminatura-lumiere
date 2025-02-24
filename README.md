@@ -10,6 +10,15 @@ Choisir un channel spécifique et allumer la lumière. Dans les 10 prochaines se
 
 Pour une seconde lumière, éteindre la première lumière déjà associée et changer de channel sur le transmetteur. Maintenant, allumer la deuxième lumière et refaire le même processus que fait précédemment sur la première lumière.
 
+| Ampoules DMX 512  | Canal    |
+| ---------- | -------- |
+| Ampoule DMX 512 1 | Canal 1 |
+| Ampoule DMX 512 2 | Canal 2 |
+| Ampoule DMX 512 3 | Canal 3 |
+| Ampoule DMX 512 4 | Canal 4 |
+| Ampoule DMX 512 5 | Canal 5 |
+| Ampoule DMX 512 6 | Canal 6 |
+
 ### Disassociation des lumières
 
 Éteindre les lumières et les rallumer. Dans les 5 prochaines secondes, appuyer 5 fois sur le bouton set du transmetteur. Les lumières devraient clignoter 10 fois en rouge pour démontrer leur dissociation du transmetteur.
