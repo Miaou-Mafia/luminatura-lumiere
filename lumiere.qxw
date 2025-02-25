@@ -14,7 +14,7 @@
      <PluginParameters inputPort="10001"/>
     </Input>
     <Output Plugin="DMX USB" UID="ultraDMX Micro - DMX Output 1 - (S/N: 6A009218)" Line="0">
-     <PluginParameters UniverseChannels="30"/>
+     <PluginParameters UniverseChannels="31"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
@@ -50,6 +50,16 @@
    <Universe>0</Universe>
    <Address>10</Address>
    <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>1</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -241,13 +251,65 @@
    <FixtureVal ID="6">0,4,1,29,2,0,3,11,4,12</FixtureVal>
    <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
   </Function>
-  <Function ID="19" Type="Chaser" Name="jaune">
+  <Function ID="19" Type="Chaser" Name="jaune_moins">
    <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+  </Function>
+  <Function ID="20" Type="Scene" Name="mauve">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,20,1,11,2,25,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,21,1,14,2,20,3,0,4,0</FixtureVal>
+   <FixtureVal ID="2">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,16,1,12,2,23,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="mauve_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,15,1,0,2,54,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,25,1,26,2,51,3,0,4,0</FixtureVal>
+   <FixtureVal ID="2">0,16,1,7,2,32,3,9,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,20,1,25,2,36,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="vert">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,25,2,0,3,0,4,5</FixtureVal>
+   <FixtureVal ID="1">0,0,1,16,2,0,3,3,4,1</FixtureVal>
+   <FixtureVal ID="2">0,0,1,18,2,0,3,2,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="vert_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,29,2,0,3,10,4,3</FixtureVal>
+   <FixtureVal ID="1">0,0,1,19,2,0,3,5,4,3</FixtureVal>
+   <FixtureVal ID="2">0,0,1,31,2,0,3,9,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,23,2,0,3,3,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Chaser" Name="vert">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+  </Function>
+  <Function ID="25" Type="Chaser" Name="mauve">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">21</Step>
   </Function>
  </Engine>
  <VirtualConsole>
@@ -259,21 +321,8 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Button Caption="rose" ID="7" Icon="">
-    <WindowState Visible="True" X="450" Y="165" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="4"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Slider Caption="Rose" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="805" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="800" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -281,7 +330,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="13785"/>
+    <Input Universe="0" Channel="1956"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
@@ -304,7 +353,7 @@
      <Function>16</Function>
     </Playback>
    </Slider>
-   <Slider Caption="Slider 2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+   <Slider Caption="Jaune" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="960" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
@@ -318,6 +367,37 @@
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
      <Function>19</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="vert" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1090" Y="240" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="7906"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>24</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Mauve" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1165" Y="240" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>25</Function>
     </Playback>
    </Slider>
   </Frame>
