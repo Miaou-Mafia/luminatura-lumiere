@@ -14,7 +14,7 @@
      <PluginParameters inputPort="10001"/>
     </Input>
     <Output Plugin="DMX USB" UID="ultraDMX Micro - DMX Output 1 - (S/N: 6A009218)" Line="0">
-     <PluginParameters UniverseChannels="31"/>
+     <PluginParameters UniverseChannels="30"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1">
@@ -326,7 +326,7 @@
     <Font>Default</Font>
    </Appearance>
    <Slider Caption="Rose" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="800" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="810" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -358,7 +358,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Jaune" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="960" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="960" Y="240" Width="70" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -390,7 +390,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Mauve" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="1165" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1165" Y="240" Width="80" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
