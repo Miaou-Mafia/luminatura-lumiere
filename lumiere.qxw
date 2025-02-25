@@ -17,7 +17,11 @@
      <PluginParameters UniverseChannels="31"/>
     </Output>
    </Universe>
-   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 2" ID="1">
+    <Output Plugin="DMX USB" UID="ultraDMX Micro - DMX Output 1 - (S/N: 6A009219)" Line="1">
+     <PluginParameters UniverseChannels="1"/>
+    </Output>
+   </Universe>
    <Universe Name="Universe 3" ID="2"/>
    <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
@@ -57,8 +61,8 @@
    <Mode>1 Channel</Mode>
    <ID>3</ID>
    <Name>Dimmers</Name>
-   <Universe>0</Universe>
-   <Address>30</Address>
+   <Universe>1</Universe>
+   <Address>0</Address>
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
@@ -346,7 +350,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="1858"/>
+    <Input Universe="0" Channel="64161"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
@@ -362,7 +366,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="5835"/>
+    <Input Universe="0" Channel="21929"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
@@ -394,6 +398,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="15908"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
