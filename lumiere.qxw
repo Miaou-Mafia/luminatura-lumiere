@@ -19,7 +19,7 @@
    </Universe>
    <Universe Name="Universe 2" ID="1">
     <Output Plugin="DMX USB" UID="ultraDMX Micro - DMX Output 1 - (S/N: 6A009219)" Line="1">
-     <PluginParameters UniverseChannels="1"/>
+     <PluginParameters UniverseChannels="3"/>
     </Output>
    </Universe>
    <Universe Name="Universe 3" ID="2"/>
@@ -57,16 +57,6 @@
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>3</ID>
-   <Name>Dimmers</Name>
-   <Universe>1</Universe>
-   <Address>0</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
    <Model>Generic RGBW</Model>
    <Mode>RGBW Dimmer</Mode>
    <ID>5</ID>
@@ -94,6 +84,36 @@
    <Universe>0</Universe>
    <Address>25</Address>
    <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>12</ID>
+   <Name>Dimmers #1</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>13</ID>
+   <Name>Dimmers #2</Name>
+   <Universe>1</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>14</ID>
+   <Name>Dimmers #3</Name>
+   <Universe>1</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="rose">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -315,6 +335,174 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">21</Step>
   </Function>
+  <Function ID="26" Type="Scene" Name="rouge">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,31,1,5,2,3,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,22,1,0,2,1,3,0,4,1</FixtureVal>
+   <FixtureVal ID="2">0,20,1,0,2,0,3,10,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,19,1,2,2,1,3,2,4,3</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="rouge_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,34,1,2,2,3,3,7,4,3</FixtureVal>
+   <FixtureVal ID="1">0,28,1,0,2,4,3,13,4,5</FixtureVal>
+   <FixtureVal ID="2">0,25,1,1,2,1,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,40,1,6,2,2,3,1,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Chaser" Name="rouge">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+  </Function>
+  <Function ID="29" Type="Scene" Name="3_plaque_01">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,25,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,0,2,0,3,10,4,0</FixtureVal>
+   <FixtureVal ID="2">0,3,1,21,2,4,3,2,4,4</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,20,1,11,2,25,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="3_plaque_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,40,1,6,2,2,3,1,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,22,1,0,2,1,3,5,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Chaser" Name="3_plaque">
+   <Speed FadeIn="400" FadeOut="400" Duration="1300"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="1" FadeIn="1000" Hold="2000" FadeOut="1000">33</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="3" FadeIn="500" Hold="1000" FadeOut="500">34</Step>
+   <Step Number="4" FadeIn="500" Hold="1000" FadeOut="500">35</Step>
+   <Step Number="5" FadeIn="1000" Hold="2000" FadeOut="1000">32</Step>
+  </Function>
+  <Function ID="32" Type="Scene" Name="3_plaque_03">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,31,1,5,2,3,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,25,2,36,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,20,1,11,2,25,3,0,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,14,2,0,3,7,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="3_plaque_01_transitition">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,25,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,3,1,21,2,4,3,2,4,4</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,22,1,0,2,1,3,5,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="3_plaque_02_transition1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,40,1,6,2,2,3,1,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,14,2,0,3,7,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="3_plaque_02_transition2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,25,2,36,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,40,1,6,2,2,3,1,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,14,2,0,3,7,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Chaser" Name="3.2_plaque">
+   <Speed FadeIn="350" FadeOut="350" Duration="950"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="400" Hold="900" FadeOut="400">37</Step>
+   <Step Number="1" FadeIn="400" Hold="900" FadeOut="400">38</Step>
+   <Step Number="2" FadeIn="400" Hold="900" FadeOut="400">39</Step>
+   <Step Number="3" FadeIn="400" Hold="900" FadeOut="400">40</Step>
+   <Step Number="4" FadeIn="400" Hold="900" FadeOut="400">41</Step>
+   <Step Number="5" FadeIn="400" Hold="900" FadeOut="400">42</Step>
+   <Step Number="6" FadeIn="400" Hold="900" FadeOut="400">43</Step>
+  </Function>
+  <Function ID="37" Type="Scene" Name="3.2_plaque_01">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,16,2,48,3,6,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,0,2,0,3,10,4,0</FixtureVal>
+   <FixtureVal ID="2">0,3,1,21,2,4,3,2,4,4</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,20,1,11,2,25,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="3.2_plaque_01_transitition">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,16,2,48,3,6,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,3,1,21,2,4,3,2,4,4</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,22,1,0,2,1,3,5,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="3.2_plaque_02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,12,2,0,3,0,4,12</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,22,1,0,2,1,3,5,4,1</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="3.2_plaque_02_transition1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,14,2,0,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,12,2,0,3,0,4,12</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,39,1,2,2,10,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="3.2_plaque_02_transition2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,14,1,0,2,35,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,25,2,36,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,12,2,0,3,0,4,12</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,39,1,2,2,10,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="3.2_plaque_03">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,31,1,5,2,3,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,25,2,36,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,13,1,76,2,88,3,19,4,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,39,1,2,2,10,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="3.2_plaque_03_transition">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,31,1,5,2,3,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,25,2,36,3,7,4,0</FixtureVal>
+   <FixtureVal ID="2">0,3,1,21,2,4,3,2,4,4</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="6">0,20,1,11,2,25,3,0,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -374,7 +562,7 @@
     </Playback>
    </Slider>
    <Slider Caption="vert" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="1090" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1085" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -403,6 +591,38 @@
     <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
      <Function>25</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Rouge" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1270" Y="240" Width="75" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="49811"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>28</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="3 plaque" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1415" Y="240" Width="85" Height="205"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="45759"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>36</Function>
     </Playback>
    </Slider>
   </Frame>
