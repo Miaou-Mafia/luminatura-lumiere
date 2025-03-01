@@ -2,6 +2,15 @@
 
 ## Mode d'emploi
 
+| Ampoules   | Canal    |
+| ---------- | -------- |
+| Ampoule 01 | Canal 01 |
+| Ampoule 02 | Canal 02 |
+| Ampoule 03 | Canal 03 |
+| Ampoule 04 | Canal 04 |
+| Ampoule 05 | Canal 05 |
+| Ampoule 06 | Canal 06 |
+
 ### Association des lumières
 *Associer les lumières une à la fois*
 
@@ -15,17 +24,6 @@
    - Changez de canal sur le transmetteur.
    - Allumez la deuxième lumière et répétez la même procédure que pour la première.
 
-| Ampoules DMX 512  | Canal    |
-| ---------- | -------- |
-| Ampoule DMX 512 1 | Canal 1 |
-| Ampoule DMX 512 2 | Canal 2 |
-| Ampoule DMX 512 3 | Canal 3 |
-| Ampoule DMX 512 4 | Canal 4 |
-| Ampoule DMX 512 5 | Canal 5 |
-| Ampoule DMX 512 6 | Canal 6 |
-
-Remarque : Si la lumière ne clignote pas en vert, réessayez la procédure d'association en vous assurant que le délai de 10 secondes est respecté. Il peut être nécessaire de répéter l'opération plusieurs fois si l'association échoue.
-
 ### Disassociation des lumières
 
 Si vous souhaitez dissocier une lumière du transmetteur, voici les étapes :
@@ -34,8 +32,6 @@ Si vous souhaitez dissocier une lumière du transmetteur, voici les étapes :
 2. **Rallumer les lumières** : Allumez les lumières à nouveau.
 3. **Procédure de dissociation** : Dans les 5 secondes après avoir rallumé les lumières, appuyez cinq fois rapidement sur le bouton "set" du transmetteur.
    - **Indication visuelle** : Les lumières clignoteront 10 fois en rouge pour indiquer qu'elles sont maintenant dissociées du transmetteur.
-  
-Astuce : Si vous avez plusieurs lumières connectées, assurez-vous de dissocier chaque lumière individuellement avant de les réassocier à un nouveau transmetteur. Cela évite les conflits de signal.
 
 ### Conseils de dépannage
 
@@ -47,7 +43,43 @@ Astuce : Si vous avez plusieurs lumières connectées, assurez-vous de dissocier
 - **Problème de synchronisation** : Si vous rencontrez des difficultés de synchronisation entre le transmetteur et les lumières, essayez de réinitialiser le transmetteur en suivant les étapes de dissociation et réassociation.
 - **Lumières ne clignotent pas en vert** : Si les lumières ne clignotent pas en vert après l'association, vérifiez que le transmetteur est correctement alimenté et que vous respectez bien le délai de 10 secondes.
 
-Remarque supplémentaire : Il est recommandé de tester chaque lumière après l'association pour vous assurer qu'elle fonctionne correctement avec le canal assigné.
+#### QLC+
+
+| Universe   | Lumières              | USB DMX |
+| ---------- | --------------------- | ------- |
+| Universe 1 | Ampoule DMX 512 RGB   | ...     |
+| Universe 2 | Lumière generic dimer | ...     |
+
+Universe 1
+
+| Lumière        | Adresse    |
+| -------------- | ---------- |
+| Generic RGBW 1 | 001 - 005  |
+| Generic RGBW 2 | 006 - 0010 |
+| Generic RGBW 3 | 011 - 015  |
+| Generic RGBW 4 | 016 - 020  |
+| Generic RGBW 5 | 021 - 025  |
+| Generic RGBW 6 | 026 - 030  |
+
+Universe 2
+
+| Lumière   | Adresse |
+| --------- | ------- |
+| Dimmers 1 | 001     |
+| Dimmers 2 | 002     |
+| Dimmers 3 | 003     |
+
+Virtual Console
+
+| Slider | Input channel |
+| ------ | ------------- |
+| Rose   | 1957          |
+| Bleu   | 64162         |
+| Jaune  | 21930         |
+| Vert   | 7907          |
+| Mauve  | 15909         |
+| Rouge  | 49812         |
+| Climax | 45760         |
 
 ## Interactions lumineuses
 ![Luminatura (2)](https://github.com/user-attachments/assets/e6520c34-fbd2-41bf-a40b-c729ab72d5c9)
