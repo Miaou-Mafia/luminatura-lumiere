@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
@@ -514,7 +514,7 @@
     <Font>Default</Font>
    </Appearance>
    <Slider Caption="Rose" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="810" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="810" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -530,7 +530,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Bleu" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="885" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="885" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -546,7 +546,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Jaune" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="960" Y="240" Width="70" Height="200"/>
+    <WindowState Visible="True" X="960" Y="240" Width="70" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -562,7 +562,7 @@
     </Playback>
    </Slider>
    <Slider Caption="vert" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1085" Y="240" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1085" Y="240" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -578,7 +578,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Mauve" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1165" Y="240" Width="80" Height="200"/>
+    <WindowState Visible="True" X="1165" Y="240" Width="80" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -594,7 +594,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Rouge" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1270" Y="240" Width="75" Height="200"/>
+    <WindowState Visible="True" X="1270" Y="240" Width="75" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -610,7 +610,7 @@
     </Playback>
    </Slider>
    <Slider Caption="3 plaque" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1415" Y="240" Width="85" Height="205"/>
+    <WindowState Visible="True" X="1415" Y="240" Width="85" Height="205"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -626,7 +626,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Light 01" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1085" Y="515" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1085" Y="515" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -644,7 +644,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Light 02" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1155" Y="515" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1155" Y="515" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -654,7 +654,7 @@
     </Appearance>
     <Input Universe="0" Channel="36716"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="56">
      <Channel Fixture="13">0</Channel>
     </Level>
     <Playback>
@@ -662,7 +662,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Light 03" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="1225" Y="515" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1225" Y="515" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
