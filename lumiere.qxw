@@ -189,20 +189,20 @@
   </Function>
   <Function ID="9" Type="Scene" Name="rose_intesite_moins_02">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,64,1,19,2,40,3,14,4,0</FixtureVal>
-   <FixtureVal ID="1">0,69,1,1,2,47,3,17,4,0</FixtureVal>
-   <FixtureVal ID="2">0,69,1,0,2,41,3,17,4,0</FixtureVal>
+   <FixtureVal ID="0">0,51,1,13,2,31,3,9,4,0</FixtureVal>
+   <FixtureVal ID="1">0,36,1,1,2,21,3,3,4,0</FixtureVal>
+   <FixtureVal ID="2">0,29,1,0,2,17,3,5,4,0</FixtureVal>
    <FixtureVal ID="5">0,12,1,0,2,2,3,1,4,0</FixtureVal>
-   <FixtureVal ID="6">0,86,1,9,2,17,3,12,4,0</FixtureVal>
+   <FixtureVal ID="6">0,38,1,4,2,12,3,6,4,0</FixtureVal>
    <FixtureVal ID="7">0,18,1,2,2,9,3,5,4,2</FixtureVal>
   </Function>
   <Function ID="10" Type="Scene" Name="rose_02_intensite_moins_02">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,39,1,2,2,10,3,0,4,0</FixtureVal>
-   <FixtureVal ID="1">0,79,1,0,2,44,3,5,4,0</FixtureVal>
-   <FixtureVal ID="2">0,90,1,0,2,31,3,13,4,0</FixtureVal>
+   <FixtureVal ID="0">0,14,1,2,2,9,3,0,4,0</FixtureVal>
+   <FixtureVal ID="1">0,20,1,1,2,13,3,3,4,0</FixtureVal>
+   <FixtureVal ID="2">0,21,1,0,2,5,3,2,4,0</FixtureVal>
    <FixtureVal ID="5">0,16,1,4,2,8,3,3,4,0</FixtureVal>
-   <FixtureVal ID="6">0,110,1,31,2,36,3,14,4,0</FixtureVal>
+   <FixtureVal ID="6">0,33,1,10,2,17,3,4,4,0</FixtureVal>
    <FixtureVal ID="7">0,20,1,3,2,10,3,3,4,0</FixtureVal>
   </Function>
   <Function ID="11" Type="Chaser" Name="rose_moins_02">
@@ -233,20 +233,20 @@
   </Function>
   <Function ID="14" Type="Scene" Name="bleu_intensite_moins">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,13,1,76,2,88,3,19,4,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,51,2,90,3,12,4,0</FixtureVal>
-   <FixtureVal ID="2">0,8,1,69,2,71,3,9,4,0</FixtureVal>
-   <FixtureVal ID="5">0,2,1,18,2,29,3,1,4,0</FixtureVal>
-   <FixtureVal ID="6">0,0,1,33,2,44,3,4,4,0</FixtureVal>
-   <FixtureVal ID="7">0,0,1,16,2,18,3,5,4,0</FixtureVal>
+   <FixtureVal ID="0">0,6,1,31,2,52,3,9,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,18,2,33,3,3,4,0</FixtureVal>
+   <FixtureVal ID="2">0,2,1,18,2,35,3,7,4,0</FixtureVal>
+   <FixtureVal ID="5">0,2,1,22,2,30,3,8,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,11,2,23,3,4,4,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,16,2,31,3,5,4,0</FixtureVal>
   </Function>
   <Function ID="15" Type="Scene" Name="bleu_02_intensite_moins">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,16,2,41,3,0,4,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,33,2,46,3,0,4,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,65,2,56,3,7,4,0</FixtureVal>
+   <FixtureVal ID="0">0,0,1,7,2,19,3,2,4,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,15,2,24,3,2,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,16,2,29,3,4,4,0</FixtureVal>
    <FixtureVal ID="5">0,0,1,6,2,11,3,1,4,0</FixtureVal>
-   <FixtureVal ID="6">0,0,1,56,2,52,3,15,4,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,28,2,40,3,10,4,0</FixtureVal>
    <FixtureVal ID="7">0,0,1,8,2,10,3,1,4,0</FixtureVal>
   </Function>
   <Function ID="16" Type="Chaser" Name="bleu_moins">
@@ -636,7 +636,7 @@
     </Appearance>
     <Input Universe="0" Channel="48631"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="56">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="12">0</Channel>
     </Level>
     <Playback>
